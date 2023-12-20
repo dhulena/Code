@@ -1,0 +1,83 @@
+.float {
+    animation: floating 2s linear infinite;
+    margin: 3.5rem auto;
+    padding: 1rem;
+    background: #5a9bad;
+    color: #ffffff;
+    box-shadow: -20px -17px 8px 0px #5a9bad63;
+}
+@keyframes floating {
+    0% {
+        transform: translate(0%, 30%);
+    }
+    50% {
+        transform: translate(0%, -30%);
+    }
+    100% {
+        transform: translate(0%, 30%);
+    }
+}
+
+
+
+
+
+
+/* .wrapper.one {
+
+    background-color: #1a1a1a;
+}
+.drop-main {
+    display: flex;
+    font-size: 7rem;
+    margin: 1.5rem;
+    justify-content: center;
+    font-family: "Russo One", sans-serif;
+}
+.d {
+    opacity: 0;
+    animation: drop 0.4s linear forwards;
+    color: #00ffff;
+}
+.r {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.2s;
+    color: #99ffff;
+}
+.o {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.4s;
+    color: #ccffff;
+}
+.p {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.6s;
+    color: #ffffff;
+}
+.s {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.8s;
+    color: #de4040;
+}
+@keyframes drop {
+    0% {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    65% {
+        transform: translateY(-17px);
+        opacity: 1;
+    }
+    75% {
+        transform: translateY(-22px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+} */

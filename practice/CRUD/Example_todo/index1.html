@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();" autocomplete="off">
+                    <div>
+                        <label for="">full name</label>
+                        <input type="text" name="fullName">
+                    </div>
+
+                    <div>
+                        <label for="">last name</label>
+                        <input type="text" name="LastName">
+                    </div>
+
+                    <div>
+                        <label for="">age</label><br/>
+                        <input type="number" name="age"/>
+                    </div>
+
+                    <div class="form-action-buttons">
+                        <button type="submit" value="submit">submit</button>
+                    </div>
+                   
+                   
+                </form>
+            </td>
+            
+            <td>
+                <table class="list" id="employeeList">
+                    <thead>
+                        <tr>
+                            <th>full name</th>
+                            <th>last name</th>
+                            <th>Age</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

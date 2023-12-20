@@ -1,0 +1,40 @@
+body {
+    height: 100vh; /* 100% of the viewport height */
+    overflow-y: auto; /* Enable vertical scrolling if the content exceeds the container height */
+    margin: 25px 25px  25px 25px;
+    padding: auto;
+  }
+.whole{
+border: 1px solid black;
+ margin: 40px;
+text-align: justify;
+justify-content: center;
+
+}
+.firstc{
+    /* border: 1px solid lightcoral; */
+    width: 45%;
+    padding: 10px;
+}
+
+.secondc{
+    margin-top: 20px;
+    /* border: 1px solid rgb(120, 208, 25); */
+    width: 45%;
+    padding: 10px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+span{
+    text-align: center;
+}
+img{
+    border: 2px solid white;
+    border-radius: 20px;
+   
+}
